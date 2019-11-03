@@ -1,0 +1,26 @@
+version: '2'
+services:
+  configserver:
+    image: vbekarev/tmx-confsvr:test
+    ports:
+      - "8888:8888"
+    environment:
+      ENCRYPT_KEY:       "IMSYMMETRIC"
+  database:
+    image: postgres:9.5
+    ports:
+      - "5434:5434"
+    environment:
+      POSTGRES_USER: "license"
+      POSTGRES_PASSWORD: "license"
+      POSTGRES_DB:       "eagle_eye_local"
+  licensingservice:
+    image: vbekarev/tmx-licensing-service:chapter3
+    ports:
+      - "8080:8080"
+    environment:
+      PROFILE: "default"
+      CONFIGSERVER_URI: "http://configserver:8888"
+      CONFIGSERVER_PORT:   "8888"
+      DATABASESERVER_PORT: "5434"
+      ENCRYPT_KEY:       "IMSYMMETRIC"

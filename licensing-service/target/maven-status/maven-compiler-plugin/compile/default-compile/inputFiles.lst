@@ -1,0 +1,11 @@
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/servicies/DiscoveryService.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/model/License.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/controllers/LicenseServiceController.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/clients/OrganizationDiscoveryClient.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/model/Organization.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/clients/OrganizationRestTemplateClient.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/Application.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/config/ServiceConfig.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/repository/LicenseRepository.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/servicies/LicenseService.java
+/home/microservices/carnell/licensing-service/src/main/java/ru/vbekarev/licenses/clients/OrganizationFeignClient.java

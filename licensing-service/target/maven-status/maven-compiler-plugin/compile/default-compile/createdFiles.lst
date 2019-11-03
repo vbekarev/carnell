@@ -1,0 +1,11 @@
+ru/vbekarev/licenses/repository/LicenseRepository.class
+ru/vbekarev/licenses/clients/OrganizationFeignClient.class
+ru/vbekarev/licenses/model/License.class
+ru/vbekarev/licenses/clients/OrganizationDiscoveryClient.class
+ru/vbekarev/licenses/clients/OrganizationRestTemplateClient.class
+ru/vbekarev/licenses/controllers/LicenseServiceController.class
+ru/vbekarev/licenses/servicies/LicenseService.class
+ru/vbekarev/licenses/Application.class
+ru/vbekarev/licenses/model/Organization.class
+ru/vbekarev/licenses/config/ServiceConfig.class
+ru/vbekarev/licenses/servicies/DiscoveryService.class

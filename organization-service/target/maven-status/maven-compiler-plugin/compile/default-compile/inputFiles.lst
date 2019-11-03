@@ -1,0 +1,5 @@
+/home/microservices/carnell/organization-service/src/main/java/ru/vbekarev/organization/model/Organization.java
+/home/microservices/carnell/organization-service/src/main/java/ru/vbekarev/organization/controllers/OrganizationServiceController.java
+/home/microservices/carnell/organization-service/src/main/java/ru/vbekarev/organization/services/OrganizationService.java
+/home/microservices/carnell/organization-service/src/main/java/ru/vbekarev/organization/Application.java
+/home/microservices/carnell/organization-service/src/main/java/ru/vbekarev/organization/repository/OrganizationRepository.java

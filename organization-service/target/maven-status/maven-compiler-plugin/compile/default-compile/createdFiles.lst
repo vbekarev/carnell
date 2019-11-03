@@ -1,0 +1,5 @@
+ru/vbekarev/organization/Application.class
+ru/vbekarev/organization/controllers/OrganizationServiceController.class
+ru/vbekarev/organization/services/OrganizationService.class
+ru/vbekarev/organization/repository/OrganizationRepository.class
+ru/vbekarev/organization/model/Organization.class
